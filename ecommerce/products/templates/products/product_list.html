@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <title>Bamboo Sul</title>
+</head>
+<body>
+
+<h1>Produtos</h1>
+
+{% for product in products %}
+
+<div>
+    <h2>{{ product.name}}</h2>
+    <p>{{ product.description}}</p>
+    <p>R$ {{ product.price}}</p>
+
+    {% if product.image %}
+    <img src="{{ product.image.url }}" width="150">
+    {% endif %}
+</div>
+
+<hr>
+{% endfor %}
+
+
+</body>
+</html>
