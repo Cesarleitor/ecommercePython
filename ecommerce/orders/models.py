@@ -14,6 +14,7 @@ class Order(models.Model):
         ("branco", "Branco"),
         ("vermelho", "Vermelho"),
         ("azul", "Azul"),
+        ('verde', 'Verde')
 
 
     ]

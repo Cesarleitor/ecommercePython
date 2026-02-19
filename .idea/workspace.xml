@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eb0e9ba-96ec-4ea0-9bbc-e638ad95d148" name="Changes" comment="backend ajustes cor e tamanho">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/orders/templates/orders/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/orders/templates/orders/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/base.html" afterDir="false" />
+    <list default="true" id="5eb0e9ba-96ec-4ea0-9bbc-e638ad95d148" name="Changes" comment="backend ajustes cor e tamanho 02">
+      <change beforePath="$PROJECT_DIR$/ecommerce/orders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/orders/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771539355989</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="backend ajustes cor e tamanho 02">
+      <option name="closed" value="true" />
+      <created>1771540661574</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771540661574</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,7 +152,8 @@
     <MESSAGE value="backend ajustes 03" />
     <MESSAGE value="backend ajustes hora Brasil" />
     <MESSAGE value="backend ajustes cor e tamanho" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend ajustes cor e tamanho" />
+    <MESSAGE value="backend ajustes cor e tamanho 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend ajustes cor e tamanho 02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
