@@ -1,9 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
 <h2>Novo Pedido</h2>
 
 <form method="post">
-    {% csrf_token %}
-    Produto: <input name="product"><br>
-    Cliente: <input name="customer"><br>
-    Quantidade: <input name="quantity"><br>
-    <button type="submit">Salvar</button>
+  {% csrf_token %}
+
+  <div style="margin-bottom:10px;">
+    <label>Produto:</label><br>
+    <input type="text" name="product" required>
+  </div>
+
+  <div style="margin-bottom:10px;">
+    <label>Cliente:</label><br>
+    <input type="text" name="customer" required>
+  </div>
+
+  <div style="margin-bottom:10px;">
+    <label>Quantidade:</label><br>
+    <input type="number" name="quantity" min="1" required>
+  </div>
+
+  <div style="margin-bottom:10px;">
+    <label>Cor:</label><br>
+    <select name="color" required>
+      <option value="black">Preto</option>
+      <option value="white">Branco</option>
+      <option value="red">Vermelho</option>
+      <option value="blue">Azul</option>
+      <option value="green">Verde</option>
+    </select>
+  </div>
+
+  <div style="margin-bottom:10px;">
+    <label>Tamanho:</label><br>
+    <select name="size" required>
+      <option value="pp">PP</option>
+      <option value="p">P</option>
+      <option value="m" selected>M</option>
+      <option value="g">G</option>
+      <option value="gg">GG</option>
+    </select>
+  </div>
+
+  <button type="submit">Salvar</button>
 </form>
+
+<p style="margin-top:15px;">
+  <a href="{% url 'orders_list' %}">Voltar</a>
+</p>
+{% endblock %}

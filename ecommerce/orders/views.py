@@ -20,12 +20,16 @@ def order_create(request):
         product = request.POST.get("product")
         customer = request.POST.get("customer")
         quantity = request.POST.get("quantity")
+        color = request.POST.get("color")
+        size = request.POST.get("size")
 
         Order.objects.create(
             vendor=request.user,
             product=product,
             customer=customer,
             quantity=quantity,
+            color=color,
+            size=size,
         )
         return redirect("orders_list")
 

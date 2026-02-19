@@ -4,15 +4,11 @@
 
 <h2>Pedidos</h2>
 
-<a href="{% url 'order_create' %}">Novo pedido</a>
-
 <table>
     <tr>
         <th>Produto</th>
         <th>Cliente</th>
         <th>Quantidade</th>
-        <th>Cor</th>
-        <th>Tamanho</th>
         <th>Status</th>
     </tr>
 
@@ -22,8 +18,6 @@
         <td>{{ order.client }}</td>
         <td>{{ order.quantity }}</td>
         <td>{{ order.status }}</td>
-        <td>{{ order.get_color_display }}</td>
-        <td>{{ order.get_size_display }}</td>
     </tr>
     {% endfor %}
 </table>
