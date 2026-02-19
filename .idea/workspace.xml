@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eb0e9ba-96ec-4ea0-9bbc-e638ad95d148" name="Changes" comment="backend ajustes hora Brasil">
-      <change afterPath="$PROJECT_DIR$/ecommerce/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/templates/orders/orders.html" afterDir="false" />
+    <list default="true" id="5eb0e9ba-96ec-4ea0-9bbc-e638ad95d148" name="Changes" comment="backend ajustes cor e tamanho">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/orders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/orders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/orders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/orders/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/orders/templates/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/orders/templates/orders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/orders/templates/orders/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/orders/templates/orders/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommerce/orders/templates/orders/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/orders/templates/orders/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/orders/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/orders/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/orders/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/products/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/users/templates/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/users/templates/users/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771531826139</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="backend ajustes cor e tamanho">
+      <option name="closed" value="true" />
+      <created>1771539355989</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771539355989</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,7 +145,8 @@
     <MESSAGE value="backend ajustes 02" />
     <MESSAGE value="backend ajustes 03" />
     <MESSAGE value="backend ajustes hora Brasil" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend ajustes hora Brasil" />
+    <MESSAGE value="backend ajustes cor e tamanho" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend ajustes cor e tamanho" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

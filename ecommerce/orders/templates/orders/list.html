@@ -1,31 +1,33 @@
 {% extends "base.html" %}
 
 {% block content %}
-
 <h2>Pedidos</h2>
 
 <a href="{% url 'order_create' %}">Novo pedido</a>
 
 <table>
-    <tr>
-        <th>Produto</th>
-        <th>Cliente</th>
-        <th>Quantidade</th>
-        <th>Cor</th>
-        <th>Tamanho</th>
-        <th>Status</th>
-    </tr>
+  <tr>
+    <th>Produto</th>
+    <th>Cliente</th>
+    <th>Quantidade</th>
+    <th>Cor</th>
+    <th>Tamanho</th>
+    <th>Status</th>
+  </tr>
 
-    {% for order in orders %}
-    <tr>
-        <td>{{ order.product }}</td>
-        <td>{{ order.client }}</td>
-        <td>{{ order.quantity }}</td>
-        <td>{{ order.status }}</td>
-        <td>{{ order.get_color_display }}</td>
-        <td>{{ order.get_size_display }}</td>
-    </tr>
-    {% endfor %}
+  {% for order in orders %}
+  <tr>
+    <td>{{ order.product }}</td>
+    <td>{{ order.customer }}</td>
+    <td>{{ order.quantity }}</td>
+    <td>{{ order.get_color_display }}</td>
+    <td>{{ order.get_size_display }}</td>
+    <td>{{ order.get_status_display }}</td>
+  </tr>
+  {% empty %}
+  <tr>
+    <td colspan="6">Nenhum pedido encontrado.</td>
+  </tr>
+  {% endfor %}
 </table>
-
 {% endblock %}
