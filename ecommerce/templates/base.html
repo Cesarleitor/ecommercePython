@@ -38,6 +38,19 @@
 
 <div class="navbar">
     Sistema de Pedidos
+
+    {% if user.is_authenticated %}
+    <span style="float:right;">
+        👤 {{ user.username }}
+
+        <form action="{% url 'logout' %}" method="post" style="display:inline;">
+            {% csrf_token %}
+            <button style="background:white;border:none;padding:5px 10px;border-radius:5px;">
+                Sair
+            </button>
+        </form>
+    </span>
+    {% endif %}
 </div>
 
 <div class="container">
