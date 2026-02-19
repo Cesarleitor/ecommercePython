@@ -1,0 +1,25 @@
+
+
+<h2>Pedidos</h2>
+
+<a href="/orders/novo/"></a>
+
+<table border="1">
+    <tr>
+        <th>Produto</th>
+        <th>Cliente</th>
+        <th>Quantidade</th>
+        <th>Status</th>
+    </tr>
+
+    {% for o in orders %}
+
+    <tr>
+        <td>{{ o.product}}</td>
+        <td>{{ o.customer}}</td>
+        <td>{{ o.quantity}}</td>
+        <td>{{ o.status }}</td>
+    </tr>
+
+    {% endfor%}
+</table>

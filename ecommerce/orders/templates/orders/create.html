@@ -1,0 +1,9 @@
+<h2>Novo Pedido</h2>
+
+<form method="post">
+    {% csrf_token %}
+    Produto: <input name="product"><br>
+    Cliente: <input name="customer"><br>
+    Quantidade: <input name="quantity"><br>
+    <button type="submit">Salvar</button>
+</form>
