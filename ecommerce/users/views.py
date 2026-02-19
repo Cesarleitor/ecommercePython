@@ -20,3 +20,28 @@ def login_vendor(request):
             messages.error(request, "Usuário ou senha inválidos")
 
     return render(request, "users/login.html")
+
+
+def login_vendor(request):
+    if request.method == "POST":
+        username = request.POST.get("username")
+        password = request.POST.get("password")
+
+        user = authenticate(request, username=username, password=password)
+
+        if user:
+            login(request, user)
+
+            # 👇 lógica admin x vendedor
+            if user.is_superuser:
+                return redirect("orders_list")
+
+            if user.is_vendor:
+                return redirect("order_create")
+
+            return redirect("orders_list")
+
+        messages.error(request, "Usuário ou senha inválidos")
+
+    return render(request, "users/login.html")
+

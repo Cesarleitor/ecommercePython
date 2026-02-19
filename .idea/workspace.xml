@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eb0e9ba-96ec-4ea0-9bbc-e638ad95d148" name="Changes" comment="backend ajustes">
+    <list default="true" id="5eb0e9ba-96ec-4ea0-9bbc-e638ad95d148" name="Changes" comment="backend ajustes 02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/orders/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/orders/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/orders/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/orders/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +49,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.urls.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -96,24 +100,22 @@
       <option name="project" value="LOCAL" />
       <updated>1771470648713</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="backend ajustes 02">
+      <option name="closed" value="true" />
+      <created>1771527028746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771527028746</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="teste01" />
     <MESSAGE value="backend ok" />
     <MESSAGE value="backend ajustes" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend ajustes" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ecommerce/users/admin.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="backend ajustes 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend ajustes 02" />
   </component>
 </project>
